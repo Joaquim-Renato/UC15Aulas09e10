@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+    height: 100vh;
+    column-gap: 15px;
+    }
+    header {
+    grid-area: header;
+    background-color: aqua;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    }
+    nav {
+    grid-area: nav;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    }
+    main { 
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Article maior e Aside menor */
+    gap: 20px;
+    background-color: rgb(233, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    }
+    footer {
+    grid-area: footer;
+    background-color: rgb(82, 105, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    }
+    aside{
+    background-color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    }

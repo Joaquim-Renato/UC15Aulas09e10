@@ -1,0 +1,16 @@
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remove bordas padrão */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b22222; /* Cor ao passar o mouse */
+}
